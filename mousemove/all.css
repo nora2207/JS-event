@@ -1,0 +1,134 @@
+p{
+    margin-left: 180px;
+}
+/*上方*/
+.wrap1{
+    width: 360px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.box{
+    background: purple;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+.box1{
+    top: 10;
+    left: 150px;
+    animation: fontbuler 2s infinite;
+}
+.box2{
+    top: 10;
+    left: 200px;
+    animation: fontbuler 3s infinite;
+}
+.box3{
+    top: 10;
+    left: 260px;
+    animation: fontbuler 2.5s infinite;
+}
+.box4{
+    top: 10;
+    left: 310px;
+    animation: fontbuler 1.8s infinite;
+}
+.box5{
+    top: 10;
+    left: 360px;
+    animation: fontbuler 4s infinite;
+}
+.box6{
+    top: 10;
+    left: 400px;
+    animation: fontbuler 1.5s infinite;
+}
+@keyframes fontbuler{
+    0%{
+        top: 9px;
+    }
+    30%{
+        top: 180px;
+    }
+    100%{
+        top: 9px;
+    }
+}
+
+/*下方*/
+.wrap2{
+    width: 360px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.boxx{
+    background: green;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+}
+.box7{
+    top: 220;
+    left: 140px;
+    animation: ball 2s infinite;
+}
+.box8{
+    top: 220;
+    left: 165px;
+    animation: ball 3s infinite;
+}
+.box9{
+    top: 220;
+    left: 200px;
+    animation: ball 2.5s infinite;
+}
+.box10{
+    top: 220;
+    left: 225px;
+    animation: ball 1.8s infinite;
+}
+.box11{
+    top: 220;
+    left: 260px;
+    animation: ball 4s infinite;
+}
+.box12{
+    top: 220;
+    left: 285px;
+    animation: ball 1.5s infinite;
+}
+.box13{
+    top: 220;
+    left: 320px;
+    animation: ball 2.5s infinite;
+}
+.box14{
+    top: 220;
+    left: 360px;
+    animation: ball 1.8s infinite;
+}
+.box15{
+    top: 220;
+    left: 395px;
+    animation: ball 4s infinite;
+}
+.box16{
+    top: 220;
+    left: 420px;
+    animation: ball 1.5s infinite;
+}
+@keyframes ball{
+    0%{
+        top: 265px;
+    }
+    30%{
+        top: 450px;
+    }
+    100%{
+        top: 265px;
+    }
+}
